@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T05:19:27.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aIsCtbExMiRSntFvbL5R" version="21.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-28T07:16:15.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SieZzM_utIWFKhZ4c2W_" version="21.2.3" type="github" pages="3">
   <diagram name="第 1 页" id="x43TS9VtYkoSws5q7L16">
-    <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,8 +60,11 @@
         <mxCell id="r0FDKJ4D7PrAV66_dY8I-25" value="Local Access&lt;br&gt;Token" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="320" y="740" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I4pa_lEHj2Cau7MgLdfz-1" value="&lt;h1&gt;Send access token to our server, and get user info back&lt;/h1&gt;&lt;p&gt;Through the https post protocol, encrypt the access token and send it to our server to request user information&lt;br&gt;&lt;/p&gt;&lt;p&gt;Https uses tls1.2 version&lt;br&gt;&lt;/p&gt;&lt;p&gt;Message body encryption is through aes-256 to ensure data transmission security&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="990" height="140" as="geometry" />
+        <mxCell id="I4pa_lEHj2Cau7MgLdfz-1" value="&lt;h1&gt;User first login data flow&lt;br&gt;&lt;/h1&gt;When the user opens our APP for the first time and clicks the button to log in, the facebook SDK will be called for authorization&lt;br&gt;&lt;br&gt;When the user authorization is successful, we will cache the user sitemid and access token returned by the SDK to the local APP private security directory&lt;p&gt;We are responsible for the storage security of user sitemid and access token, and encryption will be performed during transmission. Please refer to the process of requesting our server below&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="990" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rYypwJ-46_HRRcFnlMks-2" value="&lt;h1&gt;User login data flow after the second time&lt;br&gt;&lt;/h1&gt;When the user opens our APP for the second time and clicks the button to log in, the cached sitemid and access token of the APP private directory will be searched first&lt;br&gt;&lt;br&gt;If it exists, and the access token is valid, use the cached sitemid and access token to encrypt the request for our server login process&lt;p&gt;If it does not exist, or the access token has expired, the cached information in the local private directory will be cleared, and the SDK will be called to re-authorize. The process is the same as the process for the first login above.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="860" width="990" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -123,7 +126,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jOPRe0WHTu8u_cVHyQ1Y" name="第 3 页">
-    <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
