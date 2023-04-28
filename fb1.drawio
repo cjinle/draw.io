@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T05:03:44.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Mnnxt1wDl0ji43W6Ch_V" version="21.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-28T05:07:52.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AGyGwQlKKbOGVPuJ8aTW" version="21.2.3" type="github" pages="3">
   <diagram name="第 1 页" id="x43TS9VtYkoSws5q7L16">
     <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -67,89 +67,89 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w3MfUEUqJJYAWyeB7gSx" name="第 2 页">
-    <mxGraphModel dx="1270" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CJnmEO2U6YRz863aGqxL-2" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJnmEO2U6YRz863aGqxL-3" target="6y2NOR6K8PN4h-t25zQj-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CJnmEO2U6YRz863aGqxL-3" value="Our Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6y2NOR6K8PN4h-t25zQj-1" target="6y2NOR6K8PN4h-t25zQj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-1" value="Facebook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6y2NOR6K8PN4h-t25zQj-2" target="6y2NOR6K8PN4h-t25zQj-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-2" value="Graph API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6y2NOR6K8PN4h-t25zQj-3" target="6y2NOR6K8PN4h-t25zQj-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-3" value="Return User Info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-4" value="Our Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="950" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6y2NOR6K8PN4h-t25zQj-9" target="6y2NOR6K8PN4h-t25zQj-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-9" value="Our Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6y2NOR6K8PN4h-t25zQj-10" target="CJnmEO2U6YRz863aGqxL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6y2NOR6K8PN4h-t25zQj-10" value="Https Response with body encryption" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mYR3ZALFt0NCro35AEKC-1" value="&lt;h1&gt;Get Facebook user info&lt;/h1&gt;&lt;p&gt;Use the access token sent by the APP client as a parameter to obtain user information through the graph api&lt;/p&gt;&lt;p&gt;If successful, the user sitemid and user nickname information will be saved to the mysql database&lt;br&gt;&lt;/p&gt;&lt;p&gt;If it fails, return the result of APP invalid TOKEN&lt;br&gt;&lt;/p&gt;&lt;p&gt;We are responsible for the security of information such as user sitemid and nickname, which are stored on the encrypted disk of aws&lt;br&gt;&lt;/p&gt;&lt;p&gt;Use the latest version of the graph api&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="990" height="190" as="geometry" />
+          <mxGeometry x="80" y="190" width="990" height="190" as="geometry" />
         </mxCell>
         <mxCell id="mYR3ZALFt0NCro35AEKC-3" value="&lt;h1&gt;Return result to APP, user info or invalid token&amp;nbsp;&lt;/h1&gt;&lt;p&gt;The user data obtained through the graph api is encrypted and returned to the APP through https&lt;br&gt;&lt;/p&gt;&lt;p&gt;Https uses tls1.2 version&lt;br&gt;&lt;/p&gt;&lt;p&gt;Message body encryption is through aes-256 to ensure data transmission security&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="80" y="620" width="990" height="140" as="geometry" />
+          <mxGeometry x="80" y="610" width="990" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="jOPRe0WHTu8u_cVHyQ1Y" name="第 3 页">
-    <mxGraphModel dx="1270" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mQ0wDRHlYJblhZnfv1Rh-1" value="&lt;h1&gt;Send access token to our server, and get user info back&lt;/h1&gt;&lt;p&gt;Through the https post protocol, encrypt the access token and send it to our server to request user information&lt;br&gt;&lt;/p&gt;&lt;p&gt;Https uses tls1.2 version&lt;br&gt;&lt;/p&gt;&lt;p&gt;Message body encryption is through aes-256 to ensure data transmission security&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="80" y="250" width="990" height="140" as="geometry" />
+          <mxGeometry x="80" y="260" width="990" height="140" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HtUv1zyAtImCoLmxlgt-2" target="0HtUv1zyAtImCoLmxlgt-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-2" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-3" value="Our Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HtUv1zyAtImCoLmxlgt-5" target="0HtUv1zyAtImCoLmxlgt-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-5" value="Get Facebook User Info with access token" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0HtUv1zyAtImCoLmxlgt-7" target="0HtUv1zyAtImCoLmxlgt-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-7" value="use https and token params encryption" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
