@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T04:31:23.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="eEJBM6L25UzWeAsStioN" version="21.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-28T05:01:29.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="uWhxm0mY06a40FYIfNa-" version="21.2.3" type="github" pages="3">
   <diagram name="第 1 页" id="x43TS9VtYkoSws5q7L16">
     <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -120,11 +120,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jOPRe0WHTu8u_cVHyQ1Y" name="第 3 页">
-    <mxGraphModel dx="1270" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mQ0wDRHlYJblhZnfv1Rh-1" value="&lt;h1&gt;Send access token to our server, and get user info back&lt;/h1&gt;&lt;p&gt;The user data obtained through the graph api is encrypted and returned to the APP through https&lt;br&gt;&lt;/p&gt;&lt;p&gt;Https uses tls1.2 version&lt;br&gt;&lt;/p&gt;&lt;p&gt;Message body encryption is through aes-256 to ensure data transmission security&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="mQ0wDRHlYJblhZnfv1Rh-1" value="&lt;h1&gt;Send access token to our server, and get user info back&lt;/h1&gt;&lt;p&gt;Through the https post protocol, encrypt the access token and send it to our server to request user information&lt;br&gt;&lt;/p&gt;&lt;p&gt;Https uses tls1.2 version&lt;br&gt;&lt;/p&gt;&lt;p&gt;Message body encryption is through aes-256 to ensure data transmission security&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="80" y="250" width="990" height="140" as="geometry" />
         </mxCell>
         <mxCell id="0HtUv1zyAtImCoLmxlgt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HtUv1zyAtImCoLmxlgt-2" target="0HtUv1zyAtImCoLmxlgt-5">
