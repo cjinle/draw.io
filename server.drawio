@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-30T09:30:34.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bOj5hJofOsFsc5469QwU" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T09:45:25.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SLCzIzap-ZUFwX4Kx5cg" version="21.2.3" type="github">
   <diagram name="第 1 页" id="j0mjxfR2muMYfqirtJxF">
-    <mxGraphModel dx="951" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1403" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fkprWATBR68_Bz1YEc-L-1" value="Access" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="515" y="270" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fkprWATBR68_Bz1YEc-L-9" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="80" y="80" width="140" height="210" as="geometry" />
@@ -39,6 +39,60 @@
         </mxCell>
         <mxCell id="fkprWATBR68_Bz1YEc-L-15" value="DIceGameServer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-11">
           <mxGeometry x="10" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-16" value="Dispatch" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-17" value="LogServer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-18" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-19" value="PhpAgent" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-20" value="PotSvr" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="155" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="870" y="40" width="140" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-28" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-27">
+          <mxGeometry width="140" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-29" value="PrivateAgent" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-27">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-30" value="Texas" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-27">
+          <mxGeometry x="10" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-31" value="PrivateRoom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-27">
+          <mxGeometry x="10" y="310" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-37" value="Three" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-27">
+          <mxGeometry x="10" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-38" value="..." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="fkprWATBR68_Bz1YEc-L-27">
+          <mxGeometry x="10" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-39" value="RobotManager" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-40" value="RobotServer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-42" value="Slots" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-43" value="TongjiServer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-44" value="UserServer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkprWATBR68_Bz1YEc-L-45" value="WebAgent" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="690" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
